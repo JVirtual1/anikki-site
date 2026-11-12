@@ -26,34 +26,86 @@ ul{padding-left:1.25rem}
 <main>
 <p class="nav"><a href="/">Anikki</a> · <a href="/privacy/">Privacy</a> · <a href="/licenses/">Licences</a> · <a href="/datenschutz/">Deutsch</a></p>
 <h1>Privacy policy – Anikki</h1>
-<p class="sec">Last updated: 12 November 2026. For users in Germany the <a href="/datenschutz/">German version</a> is the binding text.</p>
+<p class="sec">Last updated: 12 November 2026. This is a translation; the <a href="/datenschutz/">German version</a> is the binding text.</p>
 
-<p>Anikki is a free anime list for Android that I develop as a private individual. The current version needs no account and contains no advertising and no analytics or tracking tools. If that changes, I will update this policy first.</p>
-
-<h2>What stays on your phone</h2>
-<p>Your list (status, ratings, progress, notes), your settings and, if you enter it, your name for the greeting are stored only on your phone. Anikki sends none of this to me or to any third party. Notifications for new episodes are also created on the device itself.</p>
-<p>If you import your list from a file (for example your MyAnimeList export), the file is read on your phone and not uploaded. With “Back up data” Anikki writes a backup file to a place you choose yourself.</p>
-<p>If Android device backup is turned on, Android may back up Anikki’s data to your Google account. You control this in the Android settings.</p>
-<p>The data is kept until you delete it: when you uninstall Anikki or clear the app’s data in the Android settings, it is removed from your phone.</p>
-
-<h2>What Anikki loads from the internet</h2>
-<p>To show covers and current air times, Anikki loads files directly from other parties’ servers. As with any request on the internet, the provider learns your IP address and which file is requested. Your list is not transferred.</p>
+<h2>1. Scope and overview</h2>
+<p>This privacy policy applies to the Android app Anikki and to the website anikki.app. It explains which personal data is processed, for which purposes and on which legal basis, and which rights you have.</p>
+<p>The key points:</p>
 <ul>
-<li><strong>Covers</strong>, when they are shown: from Kitsu, Anime News Network, TVmaze and Studio Ghibli. You can turn this off with the switch “Load covers from the web” (Profile &gt; Settings); Anikki then shows designed covers.</li>
-<li><strong>Air times and a small control file for images</strong>, at most once a day: from GitHub Pages. This download does not depend on the switch.</li>
+<li>Anikki requires no user account. Your list and your settings are stored on your device and are not transmitted to us.</li>
+<li>Anikki contains no advertising and no analytics, tracking or crash-reporting services.</li>
+<li>The app uses an internet connection only to load cover images and current air times (section 3). For technical reasons your IP address is transmitted to the respective providers when it does so.</li>
 </ul>
-<p>These providers process the data under their own responsibility, in part outside the EU, for example in the USA. I receive and store none of it.</p>
-<p>The legal basis is Art. 6(1)(f) GDPR: the legitimate interest in showing you covers and current air times. The download is not required: without internet Anikki keeps working, just without covers from the web and without new air times.</p>
 
-<h2>This website and e-mail</h2>
-<p>anikki.app is also hosted on GitHub Pages; when you open it, GitHub learns your IP address. If you e-mail me, I use your address and message only to reply (also Art. 6(1)(f) GDPR) and delete them once your request is dealt with.</p>
+<h2>2. Data stored on your device</h2>
+<h3>2.1 List and settings</h3>
+<p>Your list (titles, status, progress, ratings, dates and notes), your settings and, if you provide it, your name for the greeting are stored only locally on your device. The same applies to suggestions (“For you”): they are computed on the device from your list and the catalogue shipped with the app; suggestions you hide are stored locally. We have no access to this data.</p>
+<h3>2.2 Importing a list</h3>
+<p>If you import a list from a file (for example your XML export from MyAnimeList), the selected file is read and processed on your device. It is not uploaded.</p>
+<h3>2.3 Backup</h3>
+<p>With “Back up data” Anikki creates a backup file containing your list, your ratings and your settings in a location you choose. The app does not transmit this file.</p>
+<p>Anikki does not exclude its app data from Android's device backup. If device backup is enabled on your device, Android may back up the app data to your Google account or transfer it to a new device. You control this in the Android settings; Google is responsible for this processing.</p>
+<h3>2.4 Notifications and widgets</h3>
+<p>Notifications for new episodes are switched off by default. If you switch them on, they are scheduled and generated on your device. Anikki does not use a push service for this; no device or push identifier is transmitted to us or to third parties. The home screen widgets show data from your local list.</p>
+<h3>2.5 “Friends &amp; match” preview</h3>
+<p>The preview of the friends feature works with sample data and your local list. It requires no account and transmits no data.</p>
 
-<h2>Your rights</h2>
-<p>You have the right of access, rectification, erasure, restriction of processing and data portability. Write to <a href="mailto:kontakt@anikki.app">kontakt@anikki.app</a>.</p>
-<p><strong>Objection:</strong> You can object at any time to processing that is based on legitimate interest. The easiest way to stop the cover downloads is the switch itself.</p>
-<p>You can also lodge a complaint with a data protection supervisory authority, for example the <a href="https://www.datenschutz-berlin.de">Berlin Commissioner for Data Protection and Freedom of Information</a>.</p>
+<h2>3. Content loaded from the internet</h2>
+<p>Anikki loads the following content directly from the servers of the providers named below. With each request the respective provider receives, for technical reasons, your IP address, the time, the address of the requested file and technical details of the requesting app (for example the “User-Agent” identifier). Your list, your ratings and your name are not transmitted.</p>
+<h3>3.1 Cover images</h3>
+<p>Cover images are not included in the app. Anikki loads them from the image servers of the sources when a cover is displayed in the app or in a widget, and keeps them in the app's cache on your device. From the address of an image the provider can tell which cover was requested. Covers are currently loaded from the following providers:</p>
+<table>
+<tr><th>Provider</th><th>Server</th></tr>
+<tr><td>Kitsu</td><td>media.kitsu.app</td></tr>
+<tr><td>Anime News Network</td><td>cdn.animenewsnetwork.com</td></tr>
+<tr><td>TVmaze</td><td>static.tvmaze.com</td></tr>
+<tr><td>Studio Ghibli</td><td>www.ghibli.jp</td></tr>
+</table>
+<p>If further image sources are added, we will add them to this list before an app version uses them.</p>
+<p>You can switch this off at any time with the switch “Load covers from the web” (Profile &gt; Settings). Anikki then shows designed placeholder covers and no longer loads cover images.</p>
+<h3>3.2 Air times and control file for covers</h3>
+<p>Anikki loads two small files from GitHub Pages, a service of GitHub, Inc. (USA): the current air times and a control file that allows reported covers to be blocked. They are loaded when the app is opened, as a rule at most once a day per file, and independently of the cover switch and of whether notifications are switched on. The files are the same for all users; the request contains no information about your list.</p>
+<h3>3.3 Links to external services</h3>
+<p>The app contains links, for example to streaming providers, to source credits and to this website. A link is only opened, in your browser or in the provider's app, when you tap it. The respective provider is responsible for the processing that takes place there.</p>
 
-<h2>Controller &amp; contact</h2>
+<h2>4. Purposes and legal basis</h2>
+<p>The transmission described in section 3 serves to display cover images and current air times, to schedule notifications for new episodes at the right time and to block reported images. The legal basis is Art. 6(1)(f) GDPR. Our legitimate interest is to provide these functions without having to store and deliver the content ourselves.</p>
+<p>You are under no statutory or contractual obligation to provide this data. Without an internet connection Anikki keeps working, without covers from the web and without updated air times. No automated decision-making, including profiling, takes place.</p>
+
+<h2>5. Recipients and transfers to third countries</h2>
+<p>The recipients of the data named in section 3 are the providers listed there. They process the data under their own responsibility; we do not receive or store this data ourselves. Beyond that, we do not pass any data on to third parties.</p>
+<p>The servers of these providers may be located outside the European Union and the European Economic Area, in particular in the USA and in Japan. Because the app requests the files directly from the providers, your IP address is transferred to the respective country in these cases.</p>
+<p>If you obtain Anikki through Google Play, Google processes data under its own responsibility. Google's privacy policy applies.</p>
+
+<h2>6. Website and contact by e-mail</h2>
+<p>The website anikki.app is served by GitHub Pages. When you visit it, GitHub processes your IP address and technical details of the request in order to deliver the page and to secure the service (Art. 6(1)(f) GDPR). The website uses no cookies and no analytics tools.</p>
+<p>If you contact us by e-mail, we process your e-mail address and the content of your message solely to handle your request (Art. 6(1)(f) GDPR). The mailbox is operated by our e-mail provider IONOS SE (Germany) as a processor.</p>
+
+<h2>7. Retention</h2>
+<ul>
+<li><strong>Data on your device:</strong> It is kept until you delete it, that is, until you clear the app data in the Android settings or uninstall the app. Entries you remove from the list remain stored on the device, marked as deleted, until then. You manage backup files and backups in your Google account yourself.</li>
+<li><strong>Requests to third-party providers:</strong> We store no data on these. Retention by the providers is governed by their own terms.</li>
+<li><strong>E-mails:</strong> We delete your message once the request has been dealt with and no statutory retention obligations prevent this.</li>
+</ul>
+
+<h2>8. Your rights</h2>
+<p>Under the GDPR you have the following rights:</p>
+<ul>
+<li>Access to the data stored about you (Art. 15 GDPR)</li>
+<li>Rectification of inaccurate data (Art. 16 GDPR)</li>
+<li>Erasure (Art. 17 GDPR)</li>
+<li>Restriction of processing (Art. 18 GDPR)</li>
+<li>Data portability (Art. 20 GDPR)</li>
+</ul>
+<p>To exercise these rights, an e-mail to <a href="mailto:kontakt@anikki.app">kontakt@anikki.app</a> is sufficient. Please note that your list and your settings exist only on your device; we hold no data about them.</p>
+<p><strong>Right to object (Art. 21 GDPR):</strong> You have the right to object at any time, on grounds relating to your particular situation, to processing based on Art. 6(1)(f) GDPR. You can also switch off the loading of cover images yourself at any time in the app's settings.</p>
+<p><strong>Right to lodge a complaint (Art. 77 GDPR):</strong> You have the right to lodge a complaint with a data protection supervisory authority, for example the authority at your place of residence or the <a href="https://www.datenschutz-berlin.de">Berlin Commissioner for Data Protection and Freedom of Information</a>.</p>
+
+<h2>9. Changes to this privacy policy</h2>
+<p>We update this privacy policy when the app, the website or the law changes. The version published on this page applies; the date of the last change is shown at the top of the page.</p>
+
+<h2>10. Controller and contact</h2>
+<p>Controller within the meaning of the GDPR:</p>
 <p>Manuel Oberlein<br>Germany<br>E-mail: <a href="mailto:kontakt@anikki.app">kontakt@anikki.app</a></p>
 </main>
 </body>
